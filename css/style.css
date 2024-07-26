@@ -24,9 +24,12 @@ body {
 svg {
   fill: var(--grey-color);
 }
-
 /* HEADER */
 
+.bib {
+  width: 142px;
+  height: 16px;
+}
 .header-logo {
   font-family: Raleway;
   font-size: 26px;
@@ -263,7 +266,6 @@ header svg {
   font-size: 16px;
   font-weight: 500;
   line-height: calc(19 / 16);
-  margin-bottom: 10px;
 }
 .team-text {
   color: var(--grey-color);
@@ -301,6 +303,50 @@ header svg {
   margin-bottom: 30px;
 }
 
+.instagram {
+  width: 20px;
+  height: 20px;
+}
+.twitter {
+  width: 20px;
+  height: 16.25px;
+}
+.facebook {
+  width: 10px;
+  height: 20px;
+}
+.linkedin {
+  width: 20px;
+  height: 20px;
+}
+.team-icon-item {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+}
+.link-icon {
+  box-sizing: border-box;
+  display: flex;
+  width: 44px;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-link-list {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 16px;
+  gap: 10px;
+}
+.team-icon-item:hover {
+  background-color: var(--blue-color);
+  border-radius: 22px;
+}
+.team-icon-item:hover svg {
+  fill: var(--white-color);
+}
 /* clients */
 .clients {
   width: 1600px;
@@ -389,16 +435,62 @@ header svg {
   font-weight: 400;
   line-height: calc(24 / 14);
 }
+
 .footer-flex {
+  margin-top: 60px;
+}
+.footer-container {
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .footer-address {
   margin-top: 20px;
   font-style: normal;
+  width: 231px;
 }
 .footer-location {
   margin-top: 9px;
+}
+.footer-link-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-icon-item {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+
+  display: flex;
+  justify-content: center;
+}
+.footer-icon-item:hover {
+  background-color: var(--blue-color);
+}
+.footer-icon {
+  box-sizing: border-box;
+  display: flex;
+  width: 44px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon svg {
+  fill: var(--white-color);
+}
+.footer-title-item {
+  margin-bottom: 20px;
+}
+.footer-list {
+  margin-left: 70px;
+  margin-top: 72px;
+}
+.footer-title {
+  color: var(--white-color);
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  letter-spacing: 3%;
+  text-align: left;
+  text-transform: uppercase;
 }
