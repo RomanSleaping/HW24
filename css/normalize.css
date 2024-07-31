@@ -34,7 +34,7 @@ li {
 }
 
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
 }
 
